@@ -38,6 +38,8 @@ local AllKeymaps = {}
 	vim.keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<cr>", opts)
 	vim.keymap.set("n", "<leader>T", "<cmd>TroubleToggle<cr>", opts)
 	vim.keymap.set("n", "<leader>A", "<cmd>AerialToggle<cr>", opts)
+	vim.keymap.set("n", "<leader>x", "<cmd>silent !chmod +x %<cr>", opts)
+	vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<cr>", opts)
 	--vim.keymap.set("n", "<cmd>E<cr>", "<cmd>Lexplore<cr>", opts)
 	-- vim.keymap.set("n", "<C-k><C-i>", "gcc", opts)
 	-- vim.keymap.set("n", "<C-k><C-c>","gcc"  ,{ noremap = false, silent = false})

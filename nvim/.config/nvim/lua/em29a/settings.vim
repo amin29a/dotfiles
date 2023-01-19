@@ -13,4 +13,5 @@ set foldnestmax=10
 "autocmd VimEnter * Lexplore
 
 "autocmd BufEnter,CursorHold,InsertLeave <buffer> lua vim.lsp.codelens.refresh()
+command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
 

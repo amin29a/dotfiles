@@ -1,4 +1,4 @@
-vim.opt.clipboard = 'unnamedplus'
+-- vim.opt.clipboard = 'unnamedplus'
 vim.g.python3_host_prog = '/usr/bin/python3'
 vim.opt.guicursor = ""
 vim.opt.number = true
